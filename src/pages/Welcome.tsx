@@ -20,10 +20,9 @@ export function Welcome() {
                 de forma fácil
             </Text>
 
-            {
-                visible &&
-                <Image source={wateringImg} style={styles.image} />
-            }
+
+            <Image source={wateringImg} style={styles.image} />
+
 
             <Text style={styles.subtitle}>
                 Não se esqueça mais de regar suas plantas.
