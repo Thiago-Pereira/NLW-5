@@ -1,4 +1,3 @@
-import { useNavigation } from '@react-navigation/core';
 import React, { useState } from 'react';
 import {
     SafeAreaView,
@@ -13,6 +12,7 @@ import {
 } from 'react-native';
 
 import { Button } from '../components/Button';
+import { useNavigation } from '@react-navigation/core';
 
 import colors from '../styles/colors';
 import fonts from '../styles/fonts';
